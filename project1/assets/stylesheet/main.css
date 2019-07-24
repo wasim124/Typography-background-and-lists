@@ -1,0 +1,160 @@
+ /*http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*css start here*/
+/*my reset*/
+*,*:before, *:after{
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/*general*/
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background: #D4CEA7;
+}
+
+.wrapper{
+    max-width:1000px;
+    margin: 0 auto;
+}
+ol{
+    list-style: decimal;
+    margin-left: 20px;
+    font-size: 20px;
+}
+li{
+    color: #fafafa;
+}
+dt{
+    font-size: 30px;
+}
+dd{
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 26px;
+}
+dl{
+    margin-top: 30px;
+}
+
+/* Heading Elements */
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+p {
+  font-size: 16px;
+}
+/*HEADER*/
+header{
+    background: #F96115;
+    padding: 24px;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+    letter-spacing:0.3px;
+    color:#fafafa;
+    margin-right: 30px;
+    word-spacing: 20px;
+    font-size: 16px;
+}
+/*section*/
+.row1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.col1{
+    flex-basis: 30%;
+    background: #005979;
+    padding: 40px;
+    box-shadow: 8px 8px 6px 5px rgba(0, 0, 0, 0.3);
+
+}
+.col1 ul{
+    list-style:disc;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.square{
+    list-style-type: square;
+     /*padding-left: 30px;*/
+}
+.menu{
+    /*padding-left: 30px;*/
+}
+.check{
+    background: url("../media/checked.png") 0 10px no-repeat;
+    list-style-type: none;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+/*footer*/
+footer{
+    background: #252C22;
+    padding: 40px;
+}
